@@ -225,8 +225,8 @@ function projectHasNativeCode(projectRoot: string): boolean {
 function getScriptsForProject(projectRoot: string): Record<string, string> {
   if (projectHasNativeCode(projectRoot)) {
     return {
-      android: 'react-native run-android',
-      ios: 'react-native run-ios',
+      android: 'expo run:android',
+      ios: 'expo run:ios',
       web: 'expo start --web',
       start: 'react-native start',
     };

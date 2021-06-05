@@ -53,8 +53,8 @@ Once you're up and running with Create React Native App, visit [this tutorial](h
 ## Usage
 
 - `npx create-react-native-app` Create a new native React app.
-- `yarn ios` -- (`react-native run-ios`) Build the iOS App (requires a MacOS computer).
-- `yarn android` -- (`react-native run-android`) Build the Android App.
+- `yarn ios` -- (`expo run:ios`) Build the iOS App (requires a MacOS computer).
+- `yarn android` -- (`expo run:android`) Build the Android App.
 - `yarn web` -- (`expo start:web`) Run the website in your browser.
 
 ### Templates
@@ -114,7 +114,9 @@ The examples feature was inspired by the `templates` system of [create-next-app]
 ## Contributors ✨
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
